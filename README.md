@@ -35,3 +35,25 @@ This API does 3 things:
    git clone https://github.com/rchtchauhan/asset-reminder-api.git
    cd asset-reminder-api
 
+
+
+
+
+API Endpoints
+GET /api/assets/
+→ List all assets
+
+POST /api/assets/
+→ Create a new asset with name, service time, and expiration time
+
+GET /api/assets/<id>/
+→ Get details of a specific asset
+
+PUT /api/assets/<id>/
+→ Update an existing asset
+
+DELETE /api/assets/<id>/
+→ Delete an asset
+
+GET /api/run-checks/
+→ Manually check for upcoming service/expiration and log notifications or violations
